@@ -1,0 +1,86 @@
+# ============================================
+# Keil MDK (uVision) Project .gitignore
+# CIMC 2026 GD32F470 Embedded System
+# ============================================
+
+# --- Build Outputs ---
+*.o
+*.obj
+*.axf
+*.hex
+*.bin
+*.elf
+*.crf
+*.d
+*.dep
+*.lst
+*.iex
+*.htm
+*.lnp
+*.plg
+*.map
+*.out
+*.lib
+*.a
+
+# --- Scatter / Debug / Misc generated ---
+*.sct
+*.scvd
+*.scf
+*.uvguix.*
+*.uvoptx
+*.bak
+*.orig
+*.dbgdt
+*.ini
+
+# --- Keil RTE (Run-Time Environment) ---
+RTE/
+project/RTE/
+**/RTE_Components.h
+
+# --- Keil project Objects & Listings (build output dirs) ---
+project/Objects/
+project/Listings/
+**/Objects/
+**/Listings/
+
+# --- JLink / Debugger logs ---
+*.jlink
+JLinkLog.txt
+JLinkSettings.ini
+
+# --- OS generated files ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# --- IDE / Editor ---
+.vscode/
+*.swp
+*.swo
+*~
+*.code-workspace
+
+# --- Temp / Cache ---
+*.tmp
+*.temp
+*.log
+
+# --- Python cache ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+
+# --- Archives (keep source, exclude zips) ---
+*.zip
+*.rar
+*.7z

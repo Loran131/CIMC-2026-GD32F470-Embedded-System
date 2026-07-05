@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pdftotext \"E:/000MCU/GD32F470 Development Kit V2/01 硬件说明/CIMC_GD32F470_Dev_Kit_User_Manual.pdf\" -)",
+      "Bash(git *)",
+      "Bash(gh *)"
+    ]
+  }
+}

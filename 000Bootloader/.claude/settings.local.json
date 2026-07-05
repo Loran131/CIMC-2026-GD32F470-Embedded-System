@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c ' *)",
+      "Bash(pdftotext \"1 2026年CIMC工业嵌入式系统开发 初赛 赛题.pdf\" -)"
+    ]
+  }
+}
